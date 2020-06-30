@@ -50,7 +50,7 @@ clock_t* sorted_clock(clock_t* clock_pp,uint8_t length)
 	clock_t* cl_pp = clock_pp;
 	for(uint8_t i =0;i<length-1;i++)
 	{
-		for(uint8_t j =0;j<length-1;j++)
+		for(uint8_t j =0;j<length-1-i;j++)
 		{
 			if((cl_pp[j].hour*60+cl_pp[j].minute) > (cl_pp[j+1].hour*60+cl_pp[j+1].minute))
 				clock_swap(&cl_pp[j],&cl_pp[j+1]);
