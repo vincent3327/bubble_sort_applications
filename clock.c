@@ -90,3 +90,4 @@ int main()
 }
 
 add local1
+add remote1
