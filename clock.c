@@ -88,3 +88,5 @@ int main()
 		printf("after sorted,clock[%d].hour = %d,clock[%d].minute = %d\n",i,sorted_clockarray_p[i].hour,i,sorted_clockarray_p[i].minute);
 	}
 }
+
+add local1
