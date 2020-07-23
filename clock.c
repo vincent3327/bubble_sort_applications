@@ -54,7 +54,6 @@ clock_t* sorted_clock(clock_t* clock_pp,uint8_t length)
 		{
 			if((cl_pp[j].hour*60+cl_pp[j].minute) > (cl_pp[j+1].hour*60+cl_pp[j+1].minute))
 				clock_swap(&cl_pp[j],&cl_pp[j+1]);
-				//SWAP(cl_pp[j],cl_pp[j+1]); //no way!because not a "single data"
 		}
 	}
 	return cl_pp;
