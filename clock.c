@@ -88,7 +88,3 @@ int main()
 		printf("after sorted,clock[%d].hour = %d,clock[%d].minute = %d\n",i,sorted_clockarray_p[i].hour,i,sorted_clockarray_p[i].minute);
 	}
 }
-add by local 202006301853 
-add by remote 20200701954
-add local 1340
-add remote 1347
